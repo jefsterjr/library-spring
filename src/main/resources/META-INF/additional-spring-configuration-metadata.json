@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "project.name",
+      "type": "java.lang.String",
+      "description": "Description for project.name."
+  }
+] }
