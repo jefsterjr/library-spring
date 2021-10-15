@@ -11,8 +11,4 @@ public sealed interface BaseMapper<ENTITY, DTO> permits BookMapper {
     List<DTO> toDTO(List<ENTITY> entity);
 
     List<ENTITY> toEntity(List<DTO> dto);
-
-    Iterable<ENTITY> toEntity(Iterable<DTO> dto);
-
-    Iterable<DTO> toDTO(Iterable<ENTITY> dto);
 }

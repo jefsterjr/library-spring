@@ -24,7 +24,7 @@ public class Book {
     @NotBlank
     private String edition;
 
-    private Boolean isAvailable = true;
+    private boolean isAvailable = true;
 
     public Long getId() {
         return id;
@@ -58,11 +58,11 @@ public class Book {
         this.edition = edition;
     }
 
-    public Boolean getAvailable() {
+    public boolean isAvailable() {
         return isAvailable;
     }
 
-    public void setAvailable(Boolean available) {
+    public void setAvailable(boolean available) {
         isAvailable = available;
     }
 }
